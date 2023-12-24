@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 /*Only CLASS selectors.*/
+/*HEADER START PART*/
+
 .header {
     display: flex;
     border: 1px solid red;
@@ -21,14 +23,25 @@
     flex: 1;
     justify-content: space-evenly;
 }
+/*!!!!!HEADER FINISH!!!!!*/
 
+/*HEADERUP START PART*/
 .containerupper {
     display: flex;
     padding: 8px 12px 0 12px;
-    border: 1px solid blue;
+    border: 1px solid rgb(251, 255, 0);
     background-color: rgb(202, 155, 229);
     height: 200px;
 }
+
+.containerinsideup {
+    display: flex;
+    flex: 1 0 0%;
+    border: 1px solid red;
+}
+
+/*!!!!!HEADERUP FINISH PART!!!!!*/
+
 /*Only IDS AND TYPE SELECTORS*/
 #logoblack {
     display: flex;
