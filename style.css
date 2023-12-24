@@ -1,0 +1,30 @@
+/*Reset Css*/
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    border: 1px solid red;
+    height: 100px;
+}
+
+ /*Adjusted body so footer can get enough space*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*Created the footer and adjusted the margin to auto. It will work not consuming space
+  while i'm working on the html and css.
+                               PLEASE WRITE ABOVE ONLY!!! */
+
+footer {
+    margin-top: auto;
+}
