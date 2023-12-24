@@ -5,7 +5,7 @@
     border: none;
     box-sizing: border-box;
 }
-
+/*Only CLASS selectors.*/
 .header {
     display: flex;
     border: 1px solid red;
@@ -13,20 +13,27 @@
     padding-bottom: 0;
     padding-left: 12px;
     padding-right: 12px;
+    background-color: rgb(202, 155, 229);
 }
 
 .imagesandlinks {
     display: flex;
     flex: 1;
-    border: 1px solid red;
     justify-content: space-evenly;
+}
+
+.containerupper {
+    display: flex;
+    padding: 8px 12px 0 12px;
+    border: 1px solid blue;
+    background-color: rgb(202, 155, 229);
+    height: 200px;
 }
 /*Only IDS AND TYPE SELECTORS*/
 #logoblack {
     display: flex;
     width: 250px;
     justify-self: center;
-    border: 1px solid red;
 }
 
 #flickr {
