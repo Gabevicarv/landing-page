@@ -8,20 +8,51 @@
 
 .header {
     display: flex;
-    flex: 1;
+    border: 1px solid red;
+    padding-top: 4px;
+    padding-bottom: 0;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
+.imagesandlinks {
+    display: flex;
+    flex: 1;
+    border: 1px solid red;
+    justify-content: space-evenly;
+}
+/*Only IDS AND TYPE SELECTORS*/
+#logoblack {
+    display: flex;
+    width: 250px;
+    justify-self: center;
+    border: 1px solid red;
+}
+
+#flickr {
+    display: flex;
+    align-self: center;
+}
+
+#facebook {
+    display: flex;
+    align-self: center;
+}
+
+a[href="https://www.facebook.com/profile.php?id=100073822972509&mibextid=LQQJ4d"] ,
+a[href="https://www.flickr.com/photos/156821040@N05/"]
+{ 
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bolder;
+    color: black;
+}
 
  /*Adjusted body so footer can get enough space*/
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-}
-
-.imagesandlinks {
-    display: flex;
-    border: 1px solid red;
 }
 
 /*Created the footer and adjusted the margin to auto. It will work not consuming space
