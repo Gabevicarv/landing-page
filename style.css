@@ -8,9 +8,9 @@
 
 .header {
     display: flex;
-    border: 1px solid red;
-    height: 100px;
+    flex: 1;
 }
+
 
  /*Adjusted body so footer can get enough space*/
 body {
@@ -19,7 +19,10 @@ body {
     flex-direction: column;
 }
 
-
+.imagesandlinks {
+    display: flex;
+    border: 1px solid red;
+}
 
 /*Created the footer and adjusted the margin to auto. It will work not consuming space
   while i'm working on the html and css.
