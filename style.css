@@ -28,17 +28,62 @@
 /*HEADERUP START PART*/
 .containerupper {
     display: flex;
-    padding: 8px 12px 0 12px;
+    padding: 8px 12px 8 12px;
     border: 1px solid rgb(251, 255, 0);
     background-color: rgb(202, 155, 229);
     height: 200px;
+    justify-items: center;
+}
+/*-----------------------------------LEFT AND PARENTS START-----------------------------------*/
+.containerleft {
+    display: flex;
+    width: 50%;
+    height: 80%;
+    border: 1px solid red;
+    margin-left: 1em;
+    align-self: center;
+    justify-content: center;
 }
 
-.containerinsideup {
+.textandbutton {
     display: flex;
-    flex: 1 0 0%;
-    border: 1px solid red;
+    height: 80%;
+    width: 70%;
+    border: 1px solid powderblue;
+    align-self: center;
+    justify-content: center;
 }
+
+.text-left {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    font-size: 28px;
+    font-weight: 900;
+    width: 70%;
+}
+/*-----------------------------------LEFT AND PARENTS END-----------------------------------*/
+
+/*-----------------------------------RIGHT AND PARENTS START-----------------------------------*/
+.containerright {
+    display: flex;
+    width: 50%;
+    height: 80%;
+    border: 1px solid red;
+    margin-right: 1em;
+    align-self: center;
+    justify-content: center;
+}
+
+.placeholderimage {
+    display: flex;
+    height: 80%;
+    width: 70%;
+    border: 1px solid green;
+    align-self: center;
+}
+/*-----------------------------------RIGHT AND PARENTS END-----------------------------------*/
+
 
 /*!!!!!HEADERUP FINISH PART!!!!!*/
 
