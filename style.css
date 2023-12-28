@@ -101,9 +101,44 @@
     width: 367px;
 }
 /*-----------------------------------RIGHT AND PARENTS END-----------------------------------*/
-
-
 /*!!!!!HEADERUP FINISH PART!!!!!*/
+
+/*!!!!!MAIN START PART!!!!!*/
+
+.containermain {
+    display: flex;
+    border: 1px solid brown;
+    height: 200px;
+}
+
+.content-main {
+    display: flex;
+    flex: 1;
+    border: 1px solid rgb(198, 226, 179);
+    padding: 8px 12px 8 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header {
+    display: flex;
+    flex: 1 0 50%;
+    border: 1px solid yellowgreen;
+    align-items: center;
+    height: 2em;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.text-main-up {
+    display: flex;
+    border: 1px solid red;
+    font-size: 18px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+/*!!!!!MAIN FINISH PART!!!!!*/
 
 /*Only IDS AND TYPE SELECTORS*/
 #logoblack {
