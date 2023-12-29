@@ -104,7 +104,6 @@
     height: 200px;
     justify-content: center;
     flex-shrink: 0;
-    border: 1px solid red;
 }
 
 .text-images-main {
@@ -162,7 +161,40 @@
     text-align: center;
 }
 
+/*QUOTE START*/
 
+.containerquote {
+    display: flex;
+    border: 1px solid blue;
+    height: 200px;
+    justify-content: center;
+    padding: 3em;
+    background-color: #e5e7eb;
+    flex-wrap: wrap;
+
+}
+
+.quote {
+    display: flex;
+    border: 1px solid peru;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    width: 40%;
+    border: 1px solid yellow;
+}
+
+.author {
+    display: flex;
+    border: 1px solid red;
+    font-size: 16px;
+    font-weight: bold;
+    align-self: center;
+    padding-top: 100px;
+}
+
+/*QUOTE FINISH*/
 
 /*!!!!!MAIN FINISH PART!!!!!*/
 
