@@ -104,6 +104,7 @@
     height: 200px;
     justify-content: center;
     flex-shrink: 0;
+    background-color: white;
 }
 
 .text-images-main {
@@ -124,7 +125,7 @@
     font-size: 18px;
     font-weight: 900;
     color: #1f2937;
-
+    
 }
 
 .main-boxes {
@@ -141,7 +142,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
+    
 }
 
 .box {
@@ -160,6 +161,7 @@
     text-wrap: balance;
     text-align: center;
 }
+/*!!!!!MAIN FINISH PART!!!!!*/
 
 /*QUOTE START*/
 
@@ -170,7 +172,7 @@
     padding: 3em;
     background-color: #e5e7eb;
     flex-wrap: wrap;
-
+    
 }
 
 .quote {
@@ -194,7 +196,29 @@
 
 /*QUOTE FINISH*/
 
-/*!!!!!MAIN FINISH PART!!!!!*/
+/*ACTION START*/
+
+.action-container {
+    display: flex;
+    height: 200px;
+    border: 1px solid red;
+    background-color: white;
+    padding: 4em;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.action-layout {
+    display: flex;
+    border: 1px solid black;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 3em;
+    width: 70%;
+}
+
+/*ACTION FINISH*/
 
 /*Only IDS AND TYPE SELECTORS*/
 #logoblack {
