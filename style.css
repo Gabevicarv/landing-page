@@ -201,7 +201,6 @@
 .action-container {
     display: flex;
     height: 200px;
-    border: 1px solid red;
     background-color: white;
     padding: 4em;
     justify-content: center;
@@ -211,11 +210,36 @@
 
 .action-layout {
     display: flex;
-    border: 1px solid black;
     background-color: #3882f6;
     border-radius: 5px;
     padding: 3em;
     width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-main-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: lighter;
+}
+
+.action-main-text p {
+    display: flex;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+.actionbtn {
+    display: flex;
+    align-self: center;
+    background-color: #3882f6;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: 1px solid whitesmoke;
+    color: white;
 }
 
 /*ACTION FINISH*/
