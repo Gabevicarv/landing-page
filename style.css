@@ -107,35 +107,52 @@
 
 .containermain {
     display: flex;
-    border: 1px solid brown;
+    border: 1px solid blueviolet;
     height: 200px;
-}
-
-.content-main {
-    display: flex;
-    flex: 1;
-    border: 1px solid rgb(198, 226, 179);
-    padding: 8px 12px 8 12px;
     justify-content: center;
-    align-items: center;
+    flex-shrink: 0;
 }
 
-.main-header {
-    display: flex;
-    flex: 1 0 50%;
-    border: 1px solid yellowgreen;
-    align-items: center;
-    height: 2em;
-    justify-content: center;
-    padding-top: 10px;
-}
-
-.text-main-up {
+.text-images-main {
     display: flex;
     border: 1px solid red;
+    width: 75%;
+    height: 90%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.text-images-main p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    width: 100%;
+    height: 15%;
+    margin-top: 10px;
     font-size: 18px;
     font-weight: 900;
     color: #1f2937;
+    flex-shrink: 0;
+}
+
+.main-boxes {
+    display: flex;
+    border: 1px solid greenyellow;
+    width: 80%;
+    height: 75%;
+    justify-content: center;
+    gap: 40px;
+}
+
+.box {
+    display: flex;
+    height: 70px;
+    width: 70px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #3882f6;
+    flex-wrap: wrap;
 }
 
 /*!!!!!MAIN FINISH PART!!!!!*/
@@ -166,6 +183,28 @@ a[href="https://www.flickr.com/photos/156821040@N05/"]
     color: black;
 }
 
+#box1 {
+
+}
+
+#box2 {
+
+}
+
+#box3 {
+
+}
+
+#box4 {
+
+}
+
+
+
+
+ul {
+    display: flex;
+}
  /*Adjusted body so footer can get enough space*/
 body {
     min-height: 100vh;
